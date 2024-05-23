@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="css/contact.css"> 
+    <link rel="stylesheet" href="css/contact-1.css"> 
+    <script src="js/contact.js"></script> 
+    <style>
+    </style>
+</head>
+<body>
+    <h1>İletişim </h1>
+    <form action="/submit" method="post">
+        <!-- Metin Girişi -->
+        <label for="name">İsim:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- E-posta Girişi -->
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Şifre Girişi -->
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Radyo Düğmesi -->
+        <p>Cinsiyet:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Erkek</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın</label><br><br>
+
+        <!-- Seçim Kutusu -->
+        <label for="country">Ülke:</label>
+        <select id="country" name="country">
+            <option value="turkey">Türkiye</option>
+            <option value="usa">ABD</option>
+            <option value="germany">Almanya</option>
+            <option value="france">Fransa</option>
+        </select><br><br>
+
+        <!-- Gönderme Düğmesi -->
+        <button type="submit">Gönder</button>
+    </form>
+
+    <div id="map-container">
+        <iframe id="map" width="600" height="450" style="border:0" loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313885.4686365128!2d125.23230425802616!3d35.79462342722946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sG%C3%BCney%20Kore!5e0!3m2!1str!2str!4v1715807804862!5m2!1str!2str"
+        ></iframe>
+    </div>
+</body>
+</html>

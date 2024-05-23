@@ -1,0 +1,57 @@
+
+/* Navbar */
+.navbar {
+    background-color: #087d85;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand,
+  .navbar .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+  }
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .dikdortgen {
+    width: 200px; /* İstediğiniz genişliği buradan ayarlayabilirsiniz */
+    height: 100px; /* İstediğiniz yüksekliği buradan ayarlayabilirsiniz */
+    background-color: #3498db; /* Arka plan rengi */
+  }
+  

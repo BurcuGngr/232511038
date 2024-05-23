@@ -1,0 +1,75 @@
+        /* Kart boyutlarını ayarlamak için özel CSS */
+        
+        .custom-card1 {
+            width: 500px; /* Kartın genişliği */
+            height: 500px; /* Kartın yüksekliği */
+            margin: 50px auto 0; /* Kartın sayfanın ortasında olmasını sağlar */
+            position: relative; /* Mutlak konumlandırma için */
+        }
+         .custom-card {
+            width: 700px; /* Kartın genişliği */
+            height: 650px; /* Kartın yüksekliği */
+            margin: 50px auto 0; /* Kartın sayfanın ortasında olmasını sağlar */
+            position: relative; /* Mutlak konumlandırma için */
+        }
+
+        .custom-card .card-img-top {
+            width: 60%; /* Resmin kartın genişliğine doldurulması */
+            height: 100%; /* Resmin kartın yüksekliğine doldurulması */
+            object-fit: cover; /* Resmin orijinal boyutunu koruyarak kartın içine sığması */
+            float: left; /* Resmi sola yasla */
+        }
+
+        .custom-card .card-body {
+            position: absolute; /* İçerik konumunu ayarlamak için */
+            top: 0; /* Kartın üst kenarına yapıştır */
+            width: 100%; /* İçeriğin kartın yarısına sığması */
+            height: 100%; /* Kartın yüksekliği */
+            padding: 20px; /* İçerik ile kartın kenarları arasında boşluk bırakır */
+            text-align: center; /* Yazıyı sola hizala */
+        }
+        .card-title{
+          color:blue;
+        }
+        .custom-card ul li {
+  text-align: left;
+}
+.custom-card ol li {
+  text-align: left;
+}
+
+            
+    
+h2 {
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 90px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}

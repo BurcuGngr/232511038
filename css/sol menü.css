@@ -1,0 +1,173 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #087d85;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand,
+  .navbar .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Slider */
+  .slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider-inner {
+    display: flex;
+    transition: transform 0.5s;
+    width: 300%;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Menü */
+  .menu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    padding: 10px 0;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Kart Yapıları */
+  .content {
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1 1 calc(33.33% - 20px);
+    border: 1px solid #ddd;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card p {
+    margin-top: 10px;
+  }
+  
+  .carousel-item img {
+    height: 300px; /* İstediğiniz yüksekliği burada belirleyin */
+    width: auto; /* Genişlik otomatik olarak ayarlanacak */
+    object-fit: cover; /* Resmi boyutlandırırken orijinal oranı korur */
+  }
+  
+  
+  /*arama çubuğu*/
+  .search-form {
+    margin-left: auto; /* Arama çubuğunu sağa hizala */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    background-color: #5360c1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #6474a4;
+  }
+  
+  
+  
+  
+  
+  
+  .welcome-text {
+    font-size: 36px;
+    color: #333;
+    opacity: 0;
+  }
+  
+  .navbar-brand {
+    
+    left: 10px; /* İstediğiniz sol boşluk miktarını ayarlayın */
+   
+  }
+  
+  
